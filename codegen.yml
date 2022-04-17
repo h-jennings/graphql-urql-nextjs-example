@@ -1,0 +1,9 @@
+overwrite: true
+schema:
+  - ${CTF_URL}:
+      headers:
+        Authorization: ${CTF_BEARER_TOKEN}
+generates:
+  ./schema.generated.graphql:
+    plugins:
+      - 'schema-ast'

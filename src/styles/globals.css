@@ -1,0 +1,54 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-size: var(--fontSizes-0);
+  color: var(--colors-textPrimary);
+  background-color: var(--uiBackground);
+  font-family: var(--fonts-primary);
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  line-height: 1.33;
+  min-height: 100vh;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  line-height: 1;
+  color: inherit;
+}
+
+img {
+  max-width: 100%;
+}
+figure {
+  margin: 0;
+}
+
+button,
+a {
+  outline: none;
+  font-family: var(--fonts-primary);
+}
+
+button::-moz-focus-inner,
+a::-moz-focus-inner {
+  border: 0;
+}
+
+button:not(:disabled),
+a:not(:disabled) {
+  cursor: pointer;
+}
